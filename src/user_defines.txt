@@ -10,8 +10,8 @@
 
 ### Enable one of these regulatory domains
 
--DRegulatory_Domain_AU_915
-#-DRegulatory_Domain_EU_868
+#-DRegulatory_Domain_AU_915
+-DRegulatory_Domain_EU_868
 #-DRegulatory_Domain_AU_433
 #-DRegulatory_Domain_EU_433
 #-DRegulatory_Domain_FCC_915
@@ -41,11 +41,11 @@
 # channels are reduced to 10bit resolution to free up space in the rc packet
 # for switches.
 
-#-DHYBRID_SWITCHES_8
+-DHYBRID_SWITCHES_8
 
 # Uncomment to use UART2 for MSP comms on the TX module
 #-DUSE_UART2
 
 ### Set your UID here. Must be 6 bytes!
 
--DMY_UID=0xBA,0xBE,0xCA,0xFE,0xAC,0xDC
+-DMY_UID=0xAB,0xBC,0xCD,0xDE,0xEF,0xFA
